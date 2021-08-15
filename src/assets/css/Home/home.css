@@ -1,0 +1,12 @@
+.avatar {
+  background: url("../../Content/logo.png") center no-repeat;
+  height: 55px;
+  width: 75px;
+  margin-left: 50px;
+  background-size: 210%;
+}
+.avatar-full {
+  background: url("../../Content/logo_full.png") center no-repeat;
+  height: 58px;
+  width: 182px;
+}
