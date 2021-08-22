@@ -21,12 +21,12 @@
       <v-toolbar class="box-shadow-none">
         <span class="hidden-sm-and-up">
           <v-icon @click="sidebar = !sidebar">fas fa-align-justify</v-icon>
-          <a href="/">
+          <a href="/information">
             <div class="v-image__image v-image__image--cover avatar"></div>
           </a>
         </span>
         <v-toolbar-title class="hidden-xs-only">
-          <a href="/">
+          <a href="/information">
             <div class="v-image__image v-image__image--cover avatar-full"></div>
           </a>
         </v-toolbar-title>
