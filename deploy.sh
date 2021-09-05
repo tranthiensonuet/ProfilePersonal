@@ -12,7 +12,7 @@ git branch -m deploy-page
 
 git add -A
 
-git commit -m "new deploy"
+git commit -m "deploy 1.0"
 
 git push -f git@github.com:tranthiensonuet/ProfilePersonal.git deploy-page
 

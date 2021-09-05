@@ -1,6 +1,9 @@
 <template>
   <v-main class="mx-auto">
     <v-container fluid>
+      <v-alert text prominent type="error" icon="mdi-cloud-alert" class="blink-warning blink">
+        Hệ thống đang được phát triển, vui lòng quay lại trong thời gian gần nhất!
+      </v-alert>
       <v-carousel
         cycle
         height="400"
@@ -21,11 +24,11 @@
   </v-main>
 </template>
 <script>
-import HomeSlideCarousel1 from './Slide/SlideCarousel1.vue'
+import HomeSlideCarousel1 from "./Slide/SlideCarousel1.vue";
 export default {
   name: "home-content",
   components: {
-    HomeSlideCarousel1
+    HomeSlideCarousel1,
   },
   data: () => ({
     colors: [
