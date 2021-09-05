@@ -1,7 +1,7 @@
 <template>
   <v-main>
     <v-card class="mx-auto" max-width="600" tile>
-      <v-img
+      <!-- <v-img
         height="100%"
         src="https://cdn.vuetifyjs.com/images/cards/server-room.jpg"
       >
@@ -24,7 +24,7 @@
             </v-list-item>
           </v-col>
         </v-row>
-      </v-img>
+      </v-img> -->
     </v-card>
   </v-main>
 </template>

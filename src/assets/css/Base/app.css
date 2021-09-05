@@ -7,3 +7,9 @@ body {
   font-family: 'Roboto-Medium';
   font-size: 13px;
 }
+.background-none{
+  background-color: transparent !important;
+}
+.mr-ml-4{
+  margin: 0 4px;
+}

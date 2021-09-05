@@ -21,20 +21,20 @@
   </v-main>
 </template>
 <script>
-  import HomeSlideCarousel1 from './Slide/SlideCarousel1.vue'
-  export default {
-    name: "home-content",
-    components: {
-      HomeSlideCarousel1
-    },
-    data: () => ({
-      colors: [
-        "indigo",
-        "warning",
-        "pink darken-2",
-        "red lighten-1",
-        "deep-purple accent-4",
-      ],
-    }),
-  };
+import HomeSlideCarousel1 from './Slide/SlideCarousel1.vue'
+export default {
+  name: "home-content",
+  components: {
+    HomeSlideCarousel1
+  },
+  data: () => ({
+    colors: [
+      "indigo",
+      "warning",
+      "pink darken-2",
+      "red lighten-1",
+      "deep-purple accent-4",
+    ],
+  }),
+};
 </script>
